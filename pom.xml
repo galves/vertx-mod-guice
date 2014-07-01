@@ -8,10 +8,10 @@
     <version>7</version>
   </parent>
   <groupId>com.goodow.vertx</groupId>
-  <artifactId>mod-guice</artifactId>
-  <version>1.0.0-beta1</version>
+  <artifactId>vertx-mod-guice</artifactId>
+  <version>1.0.0-beta4</version>
   <name>Guice Integration for Vert.x</name>
-  <url>https://github.com/larrytin/mod-guice</url>
+  <url>https://github.com/larrytin/vertx-mod-guice</url>
   <description>Guice Integration for Vert.x</description>
   <inceptionYear>2013</inceptionYear>
   <licenses>
@@ -29,9 +29,9 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:https://github.com/larrytin/mod-guice.git</connection>
-    <developerConnection>scm:git:https://github.com/larrytin/mod-guice.git</developerConnection>
-    <url>https://github.com/larrytin/mod-guice</url>
+    <connection>scm:git:https://github.com/larrytin/vertx-mod-guice.git</connection>
+    <developerConnection>scm:git:https://github.com/larrytin/vertx-mod-guice.git</developerConnection>
+    <url>https://github.com/larrytin/vertx-mod-guice</url>
   </scm>
 
   <properties>
@@ -48,12 +48,12 @@
     <maven.surefire.report.plugin.version>2.14</maven.surefire.report.plugin.version>
     <maven.javadoc.plugin.version>2.9</maven.javadoc.plugin.version>
     <maven.dependency.plugin.version>2.7</maven.dependency.plugin.version>
-    <vertx.version>2.0.0-final</vertx.version>
-    <vertx.testtools.version>2.0.0-final</vertx.testtools.version>
-    <maven.vertx.plugin.version>2.0.0-final</maven.vertx.plugin.version>
-    <guice.version>4.0-beta</guice.version>
+    <vertx.version>2.1.1</vertx.version>
+    <vertx.testtools.version>2.0.3-final</vertx.testtools.version>
+    <maven.vertx.plugin.version>2.0.7-final</maven.vertx.plugin.version>
+    <guice.version>4.0-beta4</guice.version>
     <junit.version>4.11</junit.version>
-    <guava.version>16.0-rc1</guava.version>
+    <guava.version>17.0</guava.version>
   </properties>
 
   <dependencies>
@@ -76,11 +76,11 @@
       <artifactId>guice</artifactId>
       <version>${guice.version}</version>
     </dependency>
-    <!-- <dependency>
+     <dependency>
       <groupId>com.google.inject.extensions</groupId>
       <artifactId>guice-multibindings</artifactId>
       <version>${guice.version}</version>
-    </dependency> -->        
+    </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
