@@ -1,6 +1,6 @@
-# mod-guice README [![Build Status](https://travis-ci.org/larrytin/vertx-mod-guice.svg?branch=master)](https://travis-ci.org/larrytin/vertx-mod-guice)
+# vertx-mod-guice README [![Build Status](https://travis-ci.org/larrytin/vertx-mod-guice.svg?branch=master)](https://travis-ci.org/larrytin/vertx-mod-guice)
 
-mod-guice is a [Google Guice](https://code.google.com/p/google-guice/) module for [Vert.x](http://vertx.io).  It includes everything you need to be Guicing your Vert.x like a pro in five minutes.
+vertx-mod-guice is a [Google Guice](https://code.google.com/p/google-guice/) module for [Vert.x](http://vertx.io).  It includes everything you need to be Guicing your Vert.x like a pro in five minutes.
 
 
 ### The easy tutorial
@@ -50,7 +50,7 @@ public class MyVerticle extends GuiceVerticle {
 Make sure that you include the name of the module in your [mod.json for any module that needs to use vertx-mod-guice](http://vertx.io/mods_manual.html).
 
 ```
-com.goodow.vertx~vertx-mod-guice~1.0.0-beta4
+com.goodow.vertx~vertx-mod-guice~4.0-beta5
 ```
 
 
